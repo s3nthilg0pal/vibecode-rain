@@ -4,8 +4,6 @@ A beautiful, interactive pixelated rain animation inspired by The Matrix, built 
 
 Note : Entirely vide coded using cursor
 
-![Pixelated Rain Effect](preview.gif)
-
 ## Features
 
 - 🌧️ Pixelated rain drops with customizable properties
