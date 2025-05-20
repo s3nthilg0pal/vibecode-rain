@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixelated Rain</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="controlPanelContainer">
+        <button id="controlToggle" class="control-toggle">⚙️</button>
+        <div id="controlPanel">
+            <div class="control">
+                <label for="windSpeed">Wind Speed</label>
+                <input type="range" id="windSpeed" min="-5" max="5" value="0" step="0.1">
+                <span class="value">0</span>
+            </div>
+            <div class="control">
+                <label for="rainSpeed">Rain Speed</label>
+                <input type="range" id="rainSpeed" min="1" max="5" value="2" step="0.1">
+                <span class="value">2</span>
+            </div>
+            <div class="control">
+                <label for="dropSize">Drop Size</label>
+                <input type="range" id="dropSize" min="2" max="8" value="4" step="1">
+                <span class="value">4</span>
+            </div>
+            <div class="control">
+                <label for="backgroundColor">Background</label>
+                <input type="color" id="backgroundColor" value="#000000">
+            </div>
+            <div class="control">
+                <label for="rainColor">Rain Color</label>
+                <input type="color" id="rainColor" value="#ffffff">
+            </div>
+            <div class="control lightning-controls">
+                <label>Lightning</label>
+                <div class="button-group">
+                    <button id="lightningOn">On</button>
+                    <button id="lightningOff">Off</button>
+                    <button id="lightningFlash">Flash Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <canvas id="rainCanvas"></canvas>
+    <script src="script.js"></script>
+</body>
+</html> 
