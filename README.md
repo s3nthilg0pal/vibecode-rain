@@ -2,6 +2,8 @@
 
 A beautiful, interactive pixelated rain animation inspired by The Matrix, built with HTML5 Canvas, CSS, and JavaScript.
 
+Note : Entirely vide coded using cursor
+
 ![Pixelated Rain Effect](preview.gif)
 
 ## Features
